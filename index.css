@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: whitesmoke;
+}
+
+/* estilização do fundo cinza */
+#fundo-cinza{
+    margin: -19vh 18vh 15vh 15vh;
+    background: rgba(129, 155, 170, 0.913);
+    border-radius: 3vh;
+    width: 89%;
+    height: 29rem;
+}
+
+/* ciação e estilização do card branco */
+.card-branco{
+    margin-left: 26rem;
+    margin-top: 13rem;
+    background: whitesmoke;
+    border-radius: 3vh;
+    width: 28%;
+    height: 25rem;
+    padding: 1.5rem 2.5rem 1.5rem 2.5rem;
+}
+
+/* ajustes da imagem */
+.qr-code{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 2vh;
+    margin-top: 0.5vh;
+}
+
+/* texto */
+.card-branco h1{
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center;
+    color: black;
+}
+
+.card-branco p{
+    font-size: smaller;
+    text-align: center;
+    color: darkgrey;
+}
